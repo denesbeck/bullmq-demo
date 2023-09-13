@@ -1,0 +1,20 @@
+{
+  "name": "bullmq-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "tsc && node mock.js"
+  },
+  "author": "Denes Beck",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/bull": "^4.10.0",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  }
+}
